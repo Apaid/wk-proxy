@@ -5,8 +5,9 @@
    
 `思路: 使用NSURLProtocol拦截请求转发到本地。`
    
+## run demo   
    
-## Step 1    
+### Step 1    
     
 ```shell
 # start zip download serve
@@ -17,7 +18,7 @@ npm run 3238
 
 
 
-## Step 2    
+### Step 2    
     
 ```shell
 # start web serve
@@ -26,7 +27,7 @@ npm run 3233
                 
    
    
-## Step 3    
+### Step 3    
    
 ```shell
 # iOS project
@@ -35,7 +36,7 @@ cd proxy-browser && pod install
                 
    
    
-## Step 4    
+### Step 4    
    
 ```shell
 # open xcworkspace + run app
